@@ -44,3 +44,10 @@ body{
 .filter-select option{
     padding: 0.2rem 1rem;
 }
+
+/* Rule page css */
+
+ul .li-item{
+    list-style-type: circle;
+}
+
