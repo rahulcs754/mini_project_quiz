@@ -30,7 +30,7 @@ body{
 
 /* filter area code */
 .filter-area{
-    background-color: var(--color2);
+    background-color: var(--mint-white);
     width: 80%;
 }
 
@@ -46,6 +46,7 @@ body{
 
 .filter-select{
     padding: 0.3rem 0.8rem;  
+    border: 1px solid var(--dark-black);
 }
 
 .filter-select option{
