@@ -49,5 +49,30 @@ body{
 
 ul .li-item{
     list-style-type: circle;
+}  
+
+/* ans-option */
+.ans-option li{
+    list-style-type: none;
+    padding:0.9rem 3rem;  
+    margin: 0.5rem 0rem;
+    border: 1px solid var(--light-black);
+    border-radius: 12px;
+    box-sizing:content-box;
+}      
+
+.default-ans{
+    background-color: var(--light-black);
+    color: var(--mint-white);
 }
 
+.correct-one{
+    background-color: var(--success-color);
+    color: var(--mint-white);
+
+}
+
+.wrong-one{
+    background-color: var(--alert-color);
+    color: var(--white-color);
+}
