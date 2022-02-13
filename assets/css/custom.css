@@ -1,7 +1,7 @@
 /* color palattes used in this project */
 :root{
     --white-color: #EEEEEE;
-    --light-gray: #D8D2CB;
+    --light-gray: hsl(240deg 8% 93%);
 }
 
 body{
@@ -18,4 +18,29 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+}
+
+/* filter area code */
+.filter-area{
+    background-color: var(--mint-white);
+    width: 80%;
+}
+
+.left-filter{
+    flex: 0 0 5rem;
+}
+
+.right-filter{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 0 0rem;
+}
+
+.filter-select{
+    padding: 0.3rem 0.8rem;  
+    border: 1px solid var(--dark-black);
+}
+
+.filter-select option{
+    padding: 0.2rem 1rem;
 }
