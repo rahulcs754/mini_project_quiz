@@ -1,7 +1,7 @@
 /* color palattes used in this project */
 :root{
     --white-color: #EEEEEE;
-    --light-gray: #D8D2CB;
+    --light-gray: hsl(240deg 8% 93%);
 }
 
 body{
