@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Website</title>
+    <title>Quiz Website | Homepage</title>
 
     <!-- Add lib -->
     <link rel="stylesheet" href="https://rs-ui.netlify.app/css/style.css">
@@ -18,15 +18,15 @@
     <div class="col-12">
 
         <header class="header">
-            <h1 class="header-logo"><a href="#">Coding Quiz</a></h1>
+            <h1 class="header-logo"><a href="https://code-quiz-rs.netlify.app/">Coding Quiz</a></h1>
             <div class="header-search">
                  <input type="text" class="header-input field-item" placeholder="Search">
                  <div class="error-icon header-error-icon"><i class="fas fa-search input-error-icon header-search-icon"></i></div>
              </div>
              <ul class="header-nav">
-              <li><a href="#"> Home </a></li>
-              <li><a href="#"> About </a></li>
-              <li><a href="#"> Faq </a></li>
+              <li><a href="https://code-quiz-rs.netlify.app/"> Home </a></li>
+              <li><a href="pages/rule_page.html"> Rules </a></li>
+              <li><a href="pages/result_page.html"> Result </a></li>
             </ul>
         </header> 
 
@@ -36,12 +36,14 @@
 
 <div class="flex flex-center  mt-l"> 
     <div class="filter-area flex flex-row p-xs">
+
         <div class="left-filter">
             <div class="filter-item font-bolder">Filter BY</div>
         </div>
+
         <div class="right-filter">
-            
-            <select class="filter-select"> 
+
+            <select class="filter-select">  
                 <option value="">Lists</option>
                 <option value="">Basic</option>
                 <option value="">Medium</option>
@@ -74,32 +76,31 @@
     </div>
 </div>
 
-
-    <!--- Header Part -->
+    <!--- Header Part -->   
     <div class="flex flex-center flex flex-row">
-        <div class="col-sm-4 m-s">
-            <div class="card card-shadow ">
+
+
+        <div class="col-sm-4 m-s"> 
+            <div class="card card-shadow">
                 <div class="card-header">
                     <div class="card-title text-uppercase">Javascript Quiz</div>
                     <div class="card-subtitle">
-                        Created: x-person
+                    Created: x-person
                     </div>
                 </div>
-
-                <img src="assets/img/list/javascript.png" class="card-image img-c" alt="javascript image">
-                
+                <img src="assets/img/list/javascript.png" class="card-image img-c" alt="react image" loading="lazy">
                 <div class="card-info">
-                <p>5 Questions covering the basics of javascript</p>
+                <p>5 Questions covering the basics of js</p>
                 </div>
                 <div class="card-footer">
-                    <a href="" class="text-btn">Start Quiz</a>
+                    <a href="pages/question_page.html" class="text-btn">Start Quiz</a>
                     <a href=""><i class="card-icon fa fa-heart"></i></a>
                     <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                     <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
                 </div>
-                </div>
+            </div>
         </div>
-
+ 
         <div class="col-sm-4 m-s">
             <div class="card card-shadow">
                 <div class="card-header">
@@ -108,19 +109,17 @@
                     Created: x-person
                     </div>
                 </div>
-
-                <img src="assets/img/list/ReactJS.jpg" class="card-image img-c" alt="react image">
-
+                <img src="assets/img/list/react.png" class="card-image img-c" alt="react image" loading="lazy">
                 <div class="card-info">
                 <p>5 Questions covering the basics of reactjs</p>
                 </div>
                 <div class="card-footer">
-                    <a href="" class="text-btn">Start Quiz</a>
+                    <a href="pages/question_page.html" class="text-btn">Start Quiz</a>
                     <a href=""><i class="card-icon fa fa-heart"></i></a>
                     <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                     <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
                 </div>
-                </div>
+            </div>
         </div>
         
         <div class="col-sm-4 m-s">
@@ -131,23 +130,20 @@
                     Created: x-person
                 </div>
                 </div>
-
-                <img src="assets/img/list/css.png" class="card-image img-c" alt="css image">
-                
+                <img src="assets/img/list/css.png" class="card-image img-c" alt="css image" loading="lazy">
                 <div class="card-info">
                 <p>5 Questions covering the basics of css</p>
                 </div>
                 <div class="card-footer">
-                <a href="" class="text-btn">Start Quiz</a>
+                <a href="pages/question_page.html" class="text-btn">Start Quiz</a>
                 <a href=""><i class="card-icon fa fa-heart"></i></a>
                 <a href=""><i class="card-icon fa fa-share-alt"></i></a>
                 <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
                 </div>
-                </div>
-        </div>
+            </div>
+        </div> 
 
     </div>
-
 
 </body>
 </html>
