@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,138 +13,64 @@
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
 
 </head>
+
 <body>
-<!--- Header Part -->
-<div class="rs-row">
-    <div class="col-12">
+    <!--- Header Part -->
+    <div class="rs-row">
+        <div class="col-12">
 
-        <header class="header">
-            <h1 class="header-logo"><a href="https://code-quiz-rs.netlify.app/">Coding Quiz</a></h1>
-            <div class="header-search">
-                 <input type="text" class="header-input field-item" placeholder="Search">
-                 <div class="error-icon header-error-icon"><i class="fas fa-search input-error-icon header-search-icon"></i></div>
-             </div>
-             <ul class="header-nav">
-              <li><a href="https://code-quiz-rs.netlify.app/"> Home </a></li>
-              <li><a href="pages/rule_page.html"> Rules </a></li>
-              <li><a href="pages/result_page.html"> Result </a></li>
-            </ul>
-        </header> 
+            <header class="header">
+                <h1 class="header-logo"><a href="https://code-quiz-rs.netlify.app/">Coding Quiz</a></h1>
+                <div class="header-search">
+                    <input type="text" class="header-input field-item" placeholder="Search">
+                    <div class="error-icon header-error-icon"><i
+                            class="fas fa-search input-error-icon header-search-icon"></i></div>
+                </div>
+                <ul class="header-nav">
+                    <li><a href="https://code-quiz-rs.netlify.app/"> Home </a></li>
+                    <li><a href="pages/rule_page.html"> Rules </a></li>
+                    <li><a href="pages/category.html"> Category </a></li>
+                </ul>
+            </header>
 
-    </div>
-</div>
-
-
-<div class="flex flex-center  mt-l"> 
-    <div class="filter-area flex flex-row p-xs">
-
-        <div class="left-filter">
-            <div class="filter-item font-bolder">Filter BY</div>
-        </div>
-
-        <div class="right-filter">
-
-            <select class="filter-select">  
-                <option value="">Lists</option>
-                <option value="">Basic</option>
-                <option value="">Medium</option>
-                <option value="">Hard</option>
-            </select>
-
-            <select class="filter-select"> 
-                <option value="">Difficulty</option>
-                <option value="">Easy</option>
-                <option value="">Medium</option>
-                <option value="">Hard</option>
-            </select>
-
-            <select class="filter-select"> 
-                <option value="">Tags</option>
-                <option value="">Css</option>
-                <option value="">React</option>
-                <option value="">Html</option>
-                <option value="">JS</option>
-            </select>
-
-            <select class="filter-select"> 
-                <option value="">Lists</option>
-                <option value="">Easy</option>
-                <option value="">Easy</option>
-                <option value="">Easy</option>
-            </select>
-           
         </div>
     </div>
-</div>
-
-    <!--- Header Part -->   
-    <div class="flex flex-center flex flex-row">
 
 
-        <div class="col-sm-4 m-s"> 
-            <div class="card card-shadow">
-                <div class="card-header">
-                    <div class="card-title text-uppercase">Javascript Quiz</div>
-                    <div class="card-subtitle">
-                    Created: x-person
-                    </div>
-                </div>
-                <img src="assets/img/list/javascript.png" class="card-image img-c" alt="react image" loading="lazy">
-                <div class="card-info">
-                <p>5 Questions covering the basics of js</p>
-                </div>
-                <div class="card-footer">
-                    <a href="pages/question_page.html" class="text-btn">Start Quiz</a>
-                    <a href=""><i class="card-icon fa fa-heart"></i></a>
-                    <a href=""><i class="card-icon fa fa-share-alt"></i></a>
-                    <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
-                </div>
+    <!--- Body Part -->
+    <div class="flex flex-row">
+        <img src="assets/img/banner.png" alt="banner" class="img-resp bg-banner">
+    </div>
+
+
+    <div class="flex flex-center about-us">
+        <div class="width-60 m-l">
+            <div class="text-center about-title font-light f-l">About Us</div>
+            <div class="text-left f-s">
+                Over 1000+ questions for you to practice. Come and join one of the largest coding quiz and participate in our contests to challenge yourself and earn rewards.<br>
+                Not only does coding quiz prepare candidates for technical code, we also help companies identify top coder talent. From sponsoring contests to providing online quiz.
             </div>
         </div>
- 
-        <div class="col-sm-4 m-s">
-            <div class="card card-shadow">
-                <div class="card-header">
-                    <div class="card-title text-uppercase">React Quiz</div>
-                    <div class="card-subtitle">
-                    Created: x-person
-                    </div>
-                </div>
-                <img src="assets/img/list/react.png" class="card-image img-c" alt="react image" loading="lazy">
-                <div class="card-info">
-                <p>5 Questions covering the basics of reactjs</p>
-                </div>
-                <div class="card-footer">
-                    <a href="pages/question_page.html" class="text-btn">Start Quiz</a>
-                    <a href=""><i class="card-icon fa fa-heart"></i></a>
-                    <a href=""><i class="card-icon fa fa-share-alt"></i></a>
-                    <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
-                </div>
-            </div>
+    </div>
+
+
+    <!--- Footer part Part -->
+    <div class="flex flex-center flex-row box-seperate p-s footer">
+
+        <div class="copyright ml-m">
+            <span>Copyright © 2022 Rahul Shukla</span>
         </div>
         
-        <div class="col-sm-4 m-s">
-            <div class="card card-shadow">
-                <div class="card-header">
-                <div class="card-title text-uppercase">Css Quiz</div>
-                <div class="card-subtitle">
-                    Created: x-person
-                </div>
-                </div>
-                <img src="assets/img/list/css.png" class="card-image img-c" alt="css image" loading="lazy">
-                <div class="card-info">
-                <p>5 Questions covering the basics of css</p>
-                </div>
-                <div class="card-footer">
-                <a href="pages/question_page.html" class="text-btn">Start Quiz</a>
-                <a href=""><i class="card-icon fa fa-heart"></i></a>
-                <a href=""><i class="card-icon fa fa-share-alt"></i></a>
-                <a href=""><i class="card-icon fa fa-ellipsis-v"></i></a>
-                </div>
-            </div>
-        </div> 
 
+        <div class="text-center">Quick Link : <a href="https://code-quiz-rs.netlify.app/pages/question_page.html" target="_blank" >Question Page</a> | <a href="https://code-quiz-rs.netlify.app/category.html" target="_blank" >Category Page</a>  | <a href="https://code-quiz-rs.netlify.app/pages/rule_page.html" target="_blank" >Rules</a>  | <a href="https://code-quiz-rs.netlify.app/pages/result_page.html" target="_blank"  >Result Page</a> </div>
+
+        <div class="text-right mr-m">
+            <a href="#" class="footer-links">Terms</a> | 
+            <a href="#" class="footer-links">Privacy Policy</a>
+        </div>
+        
     </div>
 
 </body>
+
 </html>
