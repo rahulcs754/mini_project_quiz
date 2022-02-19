@@ -2,10 +2,12 @@
 :root{
     --white-color: #EEEEEE;
     --light-gray: hsl(240deg 8% 93%);
+    --footer-color:rgb(97 72 191);
+    --about-bg-color:#FFD3A9;
 }
 
 body{
-    background: var(--light-gray);
+    background: var(--white-color);
 }
 
 .img-c {
@@ -76,3 +78,27 @@ ul .li-item{
     background-color: var(--alert-color);
     color: var(--white-color);
 }
+
+.bg-banner{
+    height: 90vh;
+    width: 100%;
+}  
+
+.box-seperate{
+    justify-content: space-between;
+}
+
+.about-us{
+    min-height: 30rem;
+    background-color: var(--about-bg-color);
+}
+
+.footer{
+    background-color: var(--dark-black);
+    color: var(--mint-white);
+}
+
+.footer-links{
+    color: var(--mint-white);
+}
+
