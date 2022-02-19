@@ -25,7 +25,7 @@
 
 ### Contributing
 
-RS(Rise and shine) css component is open source and anyone can come and contribute in this component.
+Coding Quiz is open source and anyone can come and contribute in this component.
 
 
 ### Creators
