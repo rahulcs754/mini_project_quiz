@@ -7,7 +7,7 @@
 
 
 <p align="center">
-    Ccoding quiz prepare candidates for technical code
+    Coding quiz prepare candidates for technical Quiz.
   <br>
   <a href="https://code-quiz-rs.netlify.app/"><strong>Explore Coding Quiz »</strong></a>
   <br>
