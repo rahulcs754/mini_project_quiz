@@ -23,6 +23,25 @@
 5. Result Page
 
 
+### How to Install and Run the Project
+
+Instructions for running this code to your local system.
+
+Opn your terminal and copy below code line.
+
+`git clone  https://github.com/rahulcs754/mini_project_quiz.git`
+
+After coping link, paste into terminal and hit enter.
+
+Now you have one folder in your local system.
+
+In this forlder have 
+- assets
+- pages
+- index.html
+- readme.md
+
+
 ### Contributing
 
 Coding Quiz is open source and anyone can come and contribute in this component.
